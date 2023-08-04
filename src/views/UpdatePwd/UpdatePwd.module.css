@@ -1,0 +1,16 @@
+.box {
+  padding: 20px;
+  width: 500px;
+  height: 500px;
+}
+
+.form-box input {
+  width: 250px;
+  margin-left: 10px;
+}
+
+label {
+  display: flex;
+  justify-content: flex-end;
+  width: 80px;
+}

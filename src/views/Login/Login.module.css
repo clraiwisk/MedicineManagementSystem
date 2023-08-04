@@ -1,0 +1,49 @@
+.box {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  width: 800px;
+  height: 400px;
+  box-shadow: 0px 0px 10px 1px #999;
+  display: flex;
+}
+
+.left {
+  width: 500px;
+  height: 100%;
+  background-color: rgb(24, 127, 123);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.right img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.right-header {
+  display: flex;
+  align-items: center;
+  margin: 40px 0;
+}
